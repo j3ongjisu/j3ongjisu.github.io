@@ -1279,6 +1279,13 @@
 
 @media (max-width: 768px) {
 
+
+    br {
+        display: inline-block;
+        content: " ";
+        padding: 0 2px;
+    }
+
     .header {
         position: fixed;
         top: 0;
@@ -1308,6 +1315,7 @@
         position: fixed;
         top: 5%;
         right: 44%;
+        bottom: auto;
         /* transform: translate(0, -50%); */
         z-index: 1002;
     }
@@ -1499,8 +1507,6 @@
         flex: 8;
     }
 
-    .sub01 .inner .content .p_img_box {}
-
     .sub01 .inner .content .p_img_box .p_pic {
         position: absolute;
         top: -150px;
@@ -1564,6 +1570,7 @@
     .sub01 .title {
         position: absolute;
         top: 50%;
+        left: 9%;
         right: 8%;
         text-align: left;
         z-index: 1000;
@@ -1580,7 +1587,7 @@
     .sub01 .title .txt .type,
     .sub01 .title .txt .font,
     .sub01 .title .txt .info {
-        margin: 0 0 24px 0;
+        margin: 0 0 16px 0;
     }
 
     .sub01 .title .txt .color {
@@ -1590,6 +1597,7 @@
 
     .sub01 .title .txt .button {
         display: flex;
+        justify-content: center;
         gap: 10px;
         margin: 0 0 0 0px;
     }
@@ -1652,7 +1660,7 @@
     /* 02.인제대 백병원 */
 
     .sub02 {
-        background: linear-gradient(115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
     }
 
     .sub02 .inner {
@@ -1665,62 +1673,63 @@
     }
 
     .sub02 .content {
-        position: absolute;
-        top: 20%;
-        right: 9%;
+        flex: 8;
     }
-
-    .sub02 .inner .content .p_img_box {}
 
     .sub02 .inner .content .p_img_box .p_pic {
         position: absolute;
-        top: 0;
-        left: -9px;
+        top: -150px;
+        left: 65px;
         right: 0;
-        padding: 43px 70px;
+        padding: 0px 3px;
         z-index: 999;
     }
 
     .sub02 .inner .content .p_img_box .p_pic img {
-        width: 700px;
-        height: 450px;
+        width: 100%;
+        height: 210px;
         border-radius: 10px;
-
         object-fit: cover;
     }
 
     .sub02 .inner .content .p_img_box .p_case {
         position: relative;
+        top: -175px;
+        left: 35px;
     }
 
     .sub02 .inner .content .m_img_box {
         position: absolute;
-        bottom: 20px;
-        left: 20%;
+        width: 150px;
+        right: 0;
+        left: 109%;
+        bottom: 120px;
         z-index: 999;
-        width: 250px;
     }
 
     .sub02 .inner .content .m_img_box .m_top_case {
         position: absolute;
-        left: -78%;
-        transform: translate(-50px, -320px) rotate(8deg);
+        width: 60px;
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
+
     .sub02 .inner .content .m_img_box .m_case {
         position: absolute;
+        width: 120px;
         bottom: 22%;
-        left: -123%;
-        transform: rotate(8deg);
+        left: -80%;
+        transform: none;
     }
 
     .sub02 .inner .content .m_img_box .m_pic {
         position: absolute;
-        bottom: 22%;
-        left: -113%;
-        transform: translate(-7px, -27px) rotate(8deg);
-        width: 131px;
+        bottom: 25%;
+        left: -68%;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -1731,36 +1740,41 @@
 
     .sub02 .title {
         position: absolute;
-        top: 24%;
-        left: 14%;
+        top: 49%;
+        left: 9%;
+        right: 8%;
+        text-align: left;
         z-index: 1000;
     }
 
     .sub02 .title .logo {
-        margin: 0 0 50px 0;
+        margin: 0 0 24px 0;
     }
 
     .sub02 .title .logo img {
-        width: 190px;
+        width: 150px;
     }
 
     .sub02 .title .txt .type,
     .sub02 .title .txt .font,
     .sub02 .title .txt .info {
-        margin: 0 0 24px 0;
+        margin: 0 0 16px 0;
     }
 
     .sub02 .title .txt .color {
         margin: 0 0 72px 0;
     }
 
+
     .sub02 .title .txt .button {
         display: flex;
+        justify-content: center;
         gap: 10px;
+        margin: 0 0 0 0px;
     }
 
     .sub02 .title .txt .button a {
-        padding: 10px 25px 10px 25px;
+        padding: 8px 20px 8px 20px;
         width: 50px;
         background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -1777,24 +1791,32 @@
     }
 
     .sub02 .title .txt h2 {
-        margin: 0 0 8px 0;
-        font-size: 20px;
-        font-weight: 500;
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        font-weight: 600;
         color: #333;
         text-transform: uppercase;
     }
 
     .sub02 .title .txt p {
+        font-size: 15px;
         font-weight: 300;
         color: #555;
+        line-height: 1.2;
+    }
+
+    .sub02 .title .txt .color {
+        text-align: left;
+        margin: 0 0 32px 0;
     }
 
     .sub02 .title .txt .color .c_list {
         display: flex;
-        gap: 15px;
+        gap: 10px;
     }
 
     .sub02 .title .txt .color .c_list li:nth-child(1) {
+        margin: 0 0 0 0;
         padding: 10px;
         background: #04BFAD;
         border-radius: 15px;
@@ -1808,7 +1830,7 @@
 
     .sub02 .title .txt .color .c_list li:nth-child(3) {
         padding: 10px;
-        background: #444;
+        background: #333;
         border-radius: 15px;
     }
 
@@ -1830,56 +1852,58 @@
         flex: 8;
     }
 
-    .sub03 .inner .content .p_img_box {}
-
     .sub03 .inner .content .p_img_box .p_pic {
         position: absolute;
-        top: 0;
-        left: -9px;
+        top: -150px;
+        left: -5px;
         right: 0;
-        padding: 43px 70px;
+        padding: 0px 38px;
         z-index: 999;
     }
 
     .sub03 .inner .content .p_img_box .p_pic img {
-        width: 700px;
-        height: 450px;
+        width: 100%;
+        height: 210px;
         border-radius: 10px;
         object-fit: cover;
     }
 
     .sub03 .inner .content .p_img_box .p_case {
         position: relative;
+        top: -175px;
     }
 
     .sub03 .inner .content .m_img_box {
         position: absolute;
-        bottom: 20px;
-        right: 155px;
+        width: 150px;
+        right: -150px;
+        bottom: 120px;
         z-index: 999;
-        width: 250px;
     }
 
     .sub03 .inner .content .m_img_box .m_top_case {
         position: absolute;
-        left: -97%;
-        transform: translate(-46px, -316px) rotate(-8deg);
+        width: 60px;
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
+
     .sub03 .inner .content .m_img_box .m_case {
         position: absolute;
+        width: 120px;
         bottom: 22%;
-        left: -123%;
-        transform: rotate(-8deg);
+        left: -80%;
+        transform: none;
     }
 
     .sub03 .inner .content .m_img_box .m_pic {
         position: absolute;
-        bottom: 22%;
-        left: -113%;
-        transform: translate(-7px, -21px) rotate(-8deg);
-        width: 134px;
+        bottom: 25%;
+        left: -68%;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -1890,37 +1914,41 @@
 
     .sub03 .title {
         position: absolute;
-        top: 26%;
-        right: 12%;
-        text-align: right;
+        top: 50%;
+        left: 9%;
+        right: 17%;
+        text-align: left;
         z-index: 1000;
     }
 
     .sub03 .title .logo {
-        margin: 0 0 50px 0;
+        margin: 0 0 24px 0;
     }
 
     .sub03 .title .logo img {
-        width: 150px;
+        width: 100px;
     }
 
     .sub03 .title .txt .type,
     .sub03 .title .txt .font,
     .sub03 .title .txt .info {
-        margin: 0 0 24px 0;
+        margin: 0 0 16px 0;
     }
 
     .sub03 .title .txt .color {
         margin: 0 0 72px 0;
     }
 
+
     .sub03 .title .txt .button {
         display: flex;
+        justify-content: center;
         gap: 10px;
+        margin: 0 0 0 0px;
     }
 
     .sub03 .title .txt .button a {
-        padding: 10px 25px 10px 25px;
+        padding: 8px 20px 8px 20px;
         width: 50px;
         background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -1937,29 +1965,32 @@
     }
 
     .sub03 .title .txt h2 {
-        margin: 0 0 8px 0;
-        font-size: 20px;
-        font-weight: 500;
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        font-weight: 600;
         color: #333;
         text-transform: uppercase;
     }
 
     .sub03 .title .txt p {
+        font-size: 15px;
         font-weight: 300;
         color: #555;
+        line-height: 1.2;
     }
 
     .sub03 .title .txt .color {
-        text-align: right;
+        text-align: left;
+        margin: 0 0 32px 0;
     }
 
     .sub03 .title .txt .color .c_list {
         display: flex;
-        gap: 15px;
+        gap: 10px;
     }
 
     .sub03 .title .txt .color .c_list li:nth-child(1) {
-        margin: 0 0 0 auto;
+        margin: 0 0 0 0;
         padding: 10px;
         background: #048ABF;
         border-radius: 15px;
@@ -1974,7 +2005,7 @@
     /* 04.NEFS */
 
     .sub04 {
-        background: linear-gradient(115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
     }
 
     .sub04 .inner {
@@ -1987,61 +2018,63 @@
     }
 
     .sub04 .content {
-        position: absolute;
-        top: 20%;
-        right: 9%;
+        flex: 8;
     }
-
-    .sub04 .inner .content .p_img_box {}
 
     .sub04 .inner .content .p_img_box .p_pic {
         position: absolute;
-        top: 0;
-        left: -9px;
+        top: -150px;
+        left: 65px;
         right: 0;
-        padding: 53px 70px;
+        padding: 0px 3px;
         z-index: 999;
     }
 
     .sub04 .inner .content .p_img_box .p_pic img {
-        width: 700px;
-        height: 435px;
+        width: 100%;
+        height: 210px;
         border-radius: 10px;
         object-fit: cover;
     }
 
     .sub04 .inner .content .p_img_box .p_case {
         position: relative;
+        top: -175px;
+        left: 35px;
     }
 
     .sub04 .inner .content .m_img_box {
         position: absolute;
-        bottom: 20px;
-        left: 20%;
+        width: 150px;
+        right: 0;
+        left: 109%;
+        bottom: 120px;
         z-index: 999;
-        width: 250px;
     }
 
     .sub04 .inner .content .m_img_box .m_top_case {
         position: absolute;
-        left: -78%;
-        transform: translate(-50px, -320px) rotate(8deg);
+        width: 60px;
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
+
     .sub04 .inner .content .m_img_box .m_case {
         position: absolute;
+        width: 120px;
         bottom: 22%;
-        left: -123%;
-        transform: rotate(8deg);
+        left: -80%;
+        transform: none;
     }
 
     .sub04 .inner .content .m_img_box .m_pic {
         position: absolute;
-        bottom: 22%;
-        left: -113%;
-        transform: translate(-8px, -28px) rotate(8deg);
-        width: 133px;
+        bottom: 25%;
+        left: -68%;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2052,37 +2085,41 @@
 
     .sub04 .title {
         position: absolute;
-        top: 25%;
-        left: 14%;
+        top: 49%;
+        left: 9%;
+        right: 8%;
+        text-align: left;
         z-index: 1000;
     }
 
     .sub04 .title .logo {
-        margin: 0 0 50px 0;
+        margin: 0 0 24px 0;
     }
 
     .sub04 .title .logo img {
-        filter: brightness(0);
-        width: 190px;
+        width: 150px;
     }
 
     .sub04 .title .txt .type,
     .sub04 .title .txt .font,
     .sub04 .title .txt .info {
-        margin: 0 0 24px 0;
+        margin: 0 0 16px 0;
     }
 
     .sub04 .title .txt .color {
         margin: 0 0 72px 0;
     }
 
+
     .sub04 .title .txt .button {
         display: flex;
+        justify-content: center;
         gap: 10px;
+        margin: 0 0 0 0px;
     }
 
     .sub04 .title .txt .button a {
-        padding: 10px 25px 10px 25px;
+        padding: 8px 20px 8px 20px;
         width: 50px;
         background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -2099,24 +2136,32 @@
     }
 
     .sub04 .title .txt h2 {
-        margin: 0 0 8px 0;
-        font-size: 20px;
-        font-weight: 500;
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        font-weight: 600;
         color: #333;
         text-transform: uppercase;
     }
 
     .sub04 .title .txt p {
+        font-size: 15px;
         font-weight: 300;
         color: #555;
+        line-height: 1.2;
+    }
+
+    .sub04 .title .txt .color {
+        text-align: left;
+        margin: 0 0 32px 0;
     }
 
     .sub04 .title .txt .color .c_list {
         display: flex;
-        gap: 15px;
+        gap: 10px;
     }
 
     .sub04 .title .txt .color .c_list li:nth-child(1) {
+        margin: 0 0 0 0;
         padding: 10px;
         background: #000;
         border-radius: 15px;
@@ -2129,6 +2174,11 @@
         border-radius: 15px;
     }
 
+    .sub04 .title .txt .color .c_list li:nth-child(3) {
+        padding: 10px;
+        background: #333;
+        border-radius: 15px;
+    }
 
     /* 05.CU */
     .sub05 {
@@ -2148,56 +2198,58 @@
         flex: 8;
     }
 
-    .sub05 .inner .content .p_img_box {}
-
     .sub05 .inner .content .p_img_box .p_pic {
         position: absolute;
-        top: 0;
-        left: -9px;
+        top: -150px;
+        left: -5px;
         right: 0;
-        padding: 43px 70px;
+        padding: 0px 38px;
         z-index: 999;
     }
 
     .sub05 .inner .content .p_img_box .p_pic img {
-        width: 700px;
-        height: 450px;
+        width: 100%;
+        height: 210px;
         border-radius: 10px;
         object-fit: cover;
     }
 
     .sub05 .inner .content .p_img_box .p_case {
         position: relative;
+        top: -175px;
     }
 
     .sub05 .inner .content .m_img_box {
         position: absolute;
-        bottom: 20px;
-        right: 155px;
+        width: 150px;
+        right: -150px;
+        bottom: 120px;
         z-index: 999;
-        width: 250px;
     }
 
     .sub05 .inner .content .m_img_box .m_top_case {
         position: absolute;
-        left: -97%;
-        transform: translate(-46px, -316px) rotate(-8deg);
+        width: 60px;
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
+
     .sub05 .inner .content .m_img_box .m_case {
         position: absolute;
+        width: 120px;
         bottom: 22%;
-        left: -123%;
-        transform: rotate(-8deg);
+        left: -80%;
+        transform: none;
     }
 
     .sub05 .inner .content .m_img_box .m_pic {
         position: absolute;
-        bottom: 22%;
-        left: -113%;
-        transform: translate(-7px, -21px) rotate(-8deg);
-        width: 134px;
+        bottom: 25%;
+        left: -68%;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2208,38 +2260,41 @@
 
     .sub05 .title {
         position: absolute;
-        top: 26%;
-        right: 12%;
-        text-align: right;
+        top: 50%;
+        left: 10%;
+        right: 17%;
+        text-align: left;
         z-index: 1000;
     }
 
     .sub05 .title .logo {
-        margin: 0 0 50px 0;
+        margin: 0 0 24px 0;
     }
 
     .sub05 .title .logo img {
-        width: 150px;
+        width: 100px;
     }
 
     .sub05 .title .txt .type,
     .sub05 .title .txt .font,
     .sub05 .title .txt .info {
-        margin: 0 0 24px 0;
+        margin: 0 0 16px 0;
     }
 
     .sub05 .title .txt .color {
         margin: 0 0 72px 0;
     }
 
+
     .sub05 .title .txt .button {
         display: flex;
-        margin: 0 0 0 97px;
+        justify-content: center;
         gap: 10px;
+        margin: 0 0 0 0px;
     }
 
     .sub05 .title .txt .button a {
-        padding: 10px 25px 10px 25px;
+        padding: 8px 20px 8px 20px;
         width: 50px;
         background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -2256,29 +2311,32 @@
     }
 
     .sub05 .title .txt h2 {
-        margin: 0 0 8px 0;
-        font-size: 20px;
-        font-weight: 500;
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        font-weight: 600;
         color: #333;
         text-transform: uppercase;
     }
 
     .sub05 .title .txt p {
+        font-size: 15px;
         font-weight: 300;
         color: #555;
+        line-height: 1.2;
     }
 
     .sub05 .title .txt .color {
-        text-align: right;
+        text-align: left;
+        margin: 0 0 32px 0;
     }
 
     .sub05 .title .txt .color .c_list {
         display: flex;
-        gap: 15px;
+        gap: 10px;
     }
 
     .sub05 .title .txt .color .c_list li:nth-child(1) {
-        margin: 0 0 0 auto;
+        margin: 0 0 0 0;
         padding: 10px;
         background: #6F2B8C;
         border-radius: 15px;
@@ -2293,7 +2351,7 @@
     /* 06.유기견 보호 센터 */
 
     .sub06 {
-        background: linear-gradient(115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
     }
 
     .sub06 .inner {
@@ -2306,62 +2364,63 @@
     }
 
     .sub06 .content {
-        position: absolute;
-        top: 20%;
-        right: 9%;
+        flex: 8;
     }
-
-    .sub06 .inner .content .p_img_box {}
 
     .sub06 .inner .content .p_img_box .p_pic {
         position: absolute;
-        top: 0;
-        left: -9px;
+        top: -150px;
+        left: 65px;
         right: 0;
-        padding: 39px 70px;
+        padding: 0px 3px;
         z-index: 999;
     }
 
     .sub06 .inner .content .p_img_box .p_pic img {
-        width: 700px;
-        height: 460px;
+        width: 100%;
+        height: 210px;
         border-radius: 10px;
-
         object-fit: cover;
     }
 
     .sub06 .inner .content .p_img_box .p_case {
         position: relative;
+        top: -175px;
+        left: 35px;
     }
 
     .sub06 .inner .content .m_img_box {
         position: absolute;
-        bottom: 20px;
-        left: 20%;
+        width: 150px;
+        right: 0;
+        left: 109%;
+        bottom: 120px;
         z-index: 999;
-        width: 250px;
     }
 
     .sub06 .inner .content .m_img_box .m_top_case {
         position: absolute;
-        left: -78%;
-        transform: translate(-50px, -320px) rotate(8deg);
+        width: 60px;
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
+
     .sub06 .inner .content .m_img_box .m_case {
         position: absolute;
+        width: 120px;
         bottom: 22%;
-        left: -123%;
-        transform: rotate(8deg);
+        left: -80%;
+        transform: none;
     }
 
     .sub06 .inner .content .m_img_box .m_pic {
         position: absolute;
-        bottom: 22%;
-        left: -113%;
-        transform: translate(-7px, -27px) rotate(8deg);
-        width: 131px;
+        bottom: 25%;
+        left: -68%;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2372,36 +2431,41 @@
 
     .sub06 .title {
         position: absolute;
-        top: 24%;
-        left: 14%;
+        top: 49%;
+        left: 9%;
+        right: 8%;
+        text-align: left;
         z-index: 1000;
     }
 
     .sub06 .title .logo {
-        margin: 0 0 50px 0;
+        margin: 0 0 24px 0;
     }
 
     .sub06 .title .logo img {
-        width: 190px;
+        width: 150px;
     }
 
     .sub06 .title .txt .type,
     .sub06 .title .txt .font,
     .sub06 .title .txt .info {
-        margin: 0 0 24px 0;
+        margin: 0 0 16px 0;
     }
 
     .sub06 .title .txt .color {
         margin: 0 0 72px 0;
     }
 
+
     .sub06 .title .txt .button {
         display: flex;
+        justify-content: center;
         gap: 10px;
+        margin: 0 0 0 0px;
     }
 
     .sub06 .title .txt .button a {
-        padding: 10px 25px 10px 25px;
+        padding: 8px 20px 8px 20px;
         width: 50px;
         background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
@@ -2418,35 +2482,43 @@
     }
 
     .sub06 .title .txt h2 {
-        margin: 0 0 8px 0;
-        font-size: 20px;
-        font-weight: 500;
+        margin: 0 0 5px 0;
+        font-size: 16px;
+        font-weight: 600;
         color: #333;
         text-transform: uppercase;
     }
 
     .sub06 .title .txt p {
+        font-size: 15px;
         font-weight: 300;
         color: #555;
+        line-height: 1.2;
+        word-break: keep-all;
+    }
+
+    .sub06 .title .txt .color {
+        text-align: left;
+        margin: 0 0 32px 0;
     }
 
     .sub06 .title .txt .color .c_list {
         display: flex;
-        gap: 15px;
+        gap: 10px;
     }
 
     .sub06 .title .txt .color .c_list li:nth-child(1) {
-        padding: 10px;
-        background: #99cf23;
-        border-radius: 15px;
-    }
-
-    .sub06 .title .txt .color .c_list li:nth-child(2) {
+        margin: 0 0 0 0;
         padding: 10px;
         background: #7AA61B;
         border-radius: 15px;
     }
 
+    .sub06 .title .txt .color .c_list li:nth-child(2) {
+        padding: 10px;
+        background: #99cf23;
+        border-radius: 15px;
+    }
 
     /* 07.training */
     .sub07 {
