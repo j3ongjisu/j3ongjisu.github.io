@@ -1290,8 +1290,8 @@
         position: fixed;
         top: 0;
         left: 0;
-        right: 28%;
-        z-index: 999;
+        right: 0;
+        z-index: 1002;
         padding: 0;
         background: rgba(0, 0, 0, 0);
     }
@@ -1313,8 +1313,8 @@
 
     .gnb {
         position: fixed;
-        top: 5%;
-        right: 44%;
+        top: 6%;
+        right: 30%;
         bottom: auto;
         /* transform: translate(0, -50%); */
         z-index: 1002;
