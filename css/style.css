@@ -1242,7 +1242,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
+        right: 28%;
         z-index: 1002;
         padding: 0;
         background: rgba(0, 0, 0, 0);
@@ -1265,7 +1265,7 @@
 
     .gnb {
         position: fixed;
-        top: 6%;
+        top: 5%;
         right: 50%;
         bottom: auto;
         /* transform: translate(0, -50%); */
@@ -1420,6 +1420,7 @@
     }
 
     .main .m_tit h1 {
+        padding: 0 50px 0 0;
         font-size: 50px;
         font-weight: 900;
         text-align: center;
