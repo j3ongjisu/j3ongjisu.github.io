@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 1002;
 
     background: rgba(0, 0, 0, 0);
 }
@@ -1166,105 +1166,58 @@
 
 .sub07 .training_box {
     position: relative;
-    gap: 10px;
-    /* display: grid;
-    grid-template-columns: repeat(2, 2fr); */
+    right: -46%;
+    width: 410px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 70px;
 }
 
 .sub07 .training_box .tbox {
-    width: 480px;
-    height: 200px;
+    width: 410px;
+    height: 220px;
     border-radius: 5px;
 }
 
 .sub07 .training_box .tbox {}
 
 .sub07 .training_box .tbox a img {
+    margin: 0 0 16px 0;
     border-radius: 10px;
     transition: 0.4s;
 }
 
 .sub07 .training_box .tbox a:hover img {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .sub07 .training_box .tbox .ttxt {
-    z-index: -1;
-}
-
-.sub07 .training_box .tbox01 .ttxt01 {
-    position: absolute;
-    top: 10%;
-    left: 18%;
-    transition: 0.5s;
-}
-
-.sub07 .training_box .tbox01:hover .ttxt01 {
-    left: 29.8%;
-}
-
-.sub07 .training_box .tbox02 .ttxt02 {
-    position: absolute;
-    top: 35%;
-    left: 18%;
-    transition: 0.5s;
-}
-
-.sub07 .training_box .tbox02:hover .ttxt02 {
-    left: 31.5%;
-}
-
-.sub07 .training_box .tbox03 .ttxt03 {
-    position: absolute;
-    bottom: 30%;
-    left: 18%;
-    transition: 0.5s;
-}
-
-.sub07 .training_box .tbox03:hover .ttxt03 {
-    left: 31%;
-}
-
-.sub07 .training_box .tbox04 .ttxt04 {
-    position: absolute;
-    bottom: 5%;
-    left: 15%;
-    transition: 0.5s;
-}
-
-.sub07 .training_box .tbox04:hover .ttxt04 {
-    left: 29.5%;
-}
-
-.sub07 .training_box .tbox .ttxt {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
 .sub07 .training_box .tbox .ttxt strong {
-    display: inline-block;
+    display: block;
     margin: 0 0 8px 0;
-    font-size: 27px;
-    font-weight: 700;
-    color: #82a7c5;
+    font-size: 19px;
+    font-weight: 600;
+    color: #444;
 }
 
 .sub07 .training_box .tbox .ttxt span {
     font-size: 15px;
-    font-weight: 300;
-    color: #777;
-    line-height: 18px;
+    color: #666;
 }
 
 .sub07 .t_title {
     position: absolute;
-    top: 42%;
-    right: 18%;
-    color: #fff;
-    font-size: 110px;
-    font-weight: 800;
+    top: 45%;
+    left: 9%;
+    font-size: 75px;
+    font-weight: 600;
+    color: #82a7c5;
     text-transform: uppercase;
 }
+
 
 
 
@@ -1278,7 +1231,6 @@
 
 
 @media (max-width: 768px) {
-
 
     br {
         display: inline-block;
@@ -1314,7 +1266,7 @@
     .gnb {
         position: fixed;
         top: 6%;
-        right: 30%;
+        right: 50%;
         bottom: auto;
         /* transform: translate(0, -50%); */
         z-index: 1002;
@@ -1491,7 +1443,7 @@
 
     /* 01.eider */
     .sub01 {
-        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub01 .inner {
@@ -1660,7 +1612,7 @@
     /* 02.인제대 백병원 */
 
     .sub02 {
-        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub02 .inner {
@@ -1836,7 +1788,7 @@
 
     /* 03.eider */
     .sub03 {
-        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub03 .inner {
@@ -2005,7 +1957,7 @@
     /* 04.NEFS */
 
     .sub04 {
-        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub04 .inner {
@@ -2182,7 +2134,7 @@
 
     /* 05.CU */
     .sub05 {
-        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub05 .inner {
@@ -2351,7 +2303,7 @@
     /* 06.유기견 보호 센터 */
 
     .sub06 {
-        background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub06 .inner {
@@ -2528,103 +2480,60 @@
 
     .sub07 .training_box {
         position: relative;
-        gap: 10px;
-        /* display: grid;
-        grid-template-columns: repeat(2, 2fr); */
+        right: -42%;
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(0);
+        gap: 60px;
     }
 
     .sub07 .training_box .tbox {
-        width: 480px;
-        height: 200px;
+        width: 210px;
+        height: 130px;
         border-radius: 5px;
     }
 
-    .sub07 .training_box .tbox {}
-
     .sub07 .training_box .tbox a img {
+        margin: 0 0 16px 0;
         border-radius: 10px;
         transition: 0.4s;
     }
 
     .sub07 .training_box .tbox a:hover img {
-        transform: scale(1.3);
+        transform: scale(1.1);
     }
 
     .sub07 .training_box .tbox .ttxt {
-        z-index: -1;
-    }
-
-    .sub07 .training_box .tbox01 .ttxt01 {
-        position: absolute;
-        top: 10%;
-        left: 18%;
-        transition: 0.5s;
-    }
-
-    .sub07 .training_box .tbox01:hover .ttxt01 {
-        left: 29.8%;
-    }
-
-    .sub07 .training_box .tbox02 .ttxt02 {
-        position: absolute;
-        top: 35%;
-        left: 18%;
-        transition: 0.5s;
-    }
-
-    .sub07 .training_box .tbox02:hover .ttxt02 {
-        left: 31.5%;
-    }
-
-    .sub07 .training_box .tbox03 .ttxt03 {
-        position: absolute;
-        bottom: 30%;
-        left: 18%;
-        transition: 0.5s;
-    }
-
-    .sub07 .training_box .tbox03:hover .ttxt03 {
-        left: 31%;
-    }
-
-    .sub07 .training_box .tbox04 .ttxt04 {
-        position: absolute;
-        bottom: 5%;
-        left: 15%;
-        transition: 0.5s;
-    }
-
-    .sub07 .training_box .tbox04:hover .ttxt04 {
-        left: 29.5%;
-    }
-
-    .sub07 .training_box .tbox .ttxt {
-        display: flex;
-        flex-direction: column;
+        text-align: center;
     }
 
     .sub07 .training_box .tbox .ttxt strong {
-        display: inline-block;
+        display: block;
         margin: 0 0 8px 0;
-        font-size: 27px;
-        font-weight: 700;
-        color: #82a7c5;
+        font-size: 16px;
+        font-weight: 600;
+        color: #444;
     }
 
     .sub07 .training_box .tbox .ttxt span {
-        font-size: 15px;
-        font-weight: 300;
-        color: #777;
-        line-height: 18px;
+        font-size: 14px;
+        color: #666;
     }
 
     .sub07 .t_title {
         position: absolute;
-        top: 42%;
-        right: 18%;
-        color: #fff;
-        font-size: 110px;
-        font-weight: 800;
+        top: 40%;
+        left: 15%;
+        font-size: 30px;
+        font-weight: 600;
+        color: #82a7c5;
         text-transform: uppercase;
+        writing-mode: vertical-rl;
     }
+
+    /* 
+    * {
+        outline: 1px solid;
+    } */
 }
