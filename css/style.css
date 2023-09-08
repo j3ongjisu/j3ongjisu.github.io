@@ -1510,12 +1510,12 @@
     .main .m_tit {
         position: absolute;
         top: 40%;
-        left: 15%;
+        left: 2%;
         color: #82a7c5;
     }
 
     .main .m_tit h1 {
-        padding: 0 50px 0 0;
+        padding: 0;
         font-size: 50px;
         font-weight: 900;
         text-align: center;
@@ -1524,12 +1524,14 @@
     .main .m_tit strong {
         font-size: 45px;
         font-weight: 100;
+        text-align: center;
     }
 
     .main .m_tit span {
         display: block;
         font-size: 50px;
         font-weight: 900;
+        text-align: center;
     }
 
     .inner {
