@@ -241,19 +241,23 @@
 
 .sub01 .inner .content .p_img_box .p_pic {
     position: absolute;
-    top: 0;
-    left: -9px;
+    top: 50px;
+    left: 3px;
     right: 0;
-    padding: 43px 70px;
+    width: 820px;
+    height: 440px;
+    padding: 0 70px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .sub01 .inner .content .p_img_box .p_pic img {
-    width: 700px;
-    height: 450px;
-    border-radius: 10px;
+    transform: translate(0, 0);
+    transition: 5s;
+}
 
-    object-fit: cover;
+.sub01 .inner .content .p_img_box .p_pic:hover img {
+    transform: translate(0, calc(-100% + 440px));
 }
 
 .sub01 .inner .content .p_img_box .p_case {
@@ -420,24 +424,29 @@
 
 .sub02 .inner .content .p_img_box .p_pic {
     position: absolute;
-    top: 0;
-    left: -9px;
+    top: 50px;
+    left: 3px;
     right: 0;
-    padding: 43px 70px;
+    width: 820px;
+    height: 440px;
+    padding: 0 70px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .sub02 .inner .content .p_img_box .p_pic img {
-    width: 700px;
-    height: 450px;
-    border-radius: 10px;
+    transform: translate(0, 0);
+    transition: 5s;
+}
 
-    object-fit: cover;
+.sub02 .inner .content .p_img_box .p_pic:hover img {
+    transform: translate(0, calc(-100% + 440px));
 }
 
 .sub02 .inner .content .p_img_box .p_case {
     position: relative;
 }
+
 
 .sub02 .inner .content .m_img_box {
     position: absolute;
@@ -592,18 +601,23 @@
 
 .sub03 .inner .content .p_img_box .p_pic {
     position: absolute;
-    top: 0;
-    left: -9px;
+    top: 50px;
+    left: 3px;
     right: 0;
-    padding: 43px 70px;
+    width: 820px;
+    height: 440px;
+    padding: 0 70px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .sub03 .inner .content .p_img_box .p_pic img {
-    width: 700px;
-    height: 450px;
-    border-radius: 10px;
-    object-fit: cover;
+    transform: translate(0, 0);
+    transition: 5s;
+}
+
+.sub03 .inner .content .p_img_box .p_pic:hover img {
+    transform: translate(0, calc(-100% + 440px));
 }
 
 .sub03 .inner .content .p_img_box .p_case {
@@ -1561,18 +1575,26 @@
 
     .sub01 .inner .content .p_img_box .p_pic {
         position: absolute;
+        padding: 0px 38px;
         top: -150px;
         left: -5px;
         right: 0;
-        padding: 0px 38px;
+        width: 395px;
+        height: 210px;
         z-index: 999;
+        overflow: hidden;
     }
 
+    .sub01 .inner .content .p_img_box .p_pic img {}
+
     .sub01 .inner .content .p_img_box .p_pic img {
-        width: 100%;
-        height: 210px;
-        border-radius: 10px;
-        object-fit: cover;
+        transform: translate(0, 0);
+        transition: 5s;
+    }
+
+
+    .sub01 .inner .content .p_img_box .p_pic:hover img {
+        transform: translate(0);
     }
 
     .sub01 .inner .content .p_img_box .p_case {
