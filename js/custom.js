@@ -56,9 +56,3 @@ PF_LIST.forEach((el, idx) => {
     });
 });
 
-gsap.from('.m_tit', {
-    x: 1500,
-    y: 2,
-    // rotation: 360,
-    duration: 3
-});
