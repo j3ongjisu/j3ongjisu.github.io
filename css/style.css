@@ -1350,6 +1350,10 @@
         z-index: 1001;
     }
 
+    .header h1 a {
+        margin: 0;
+    }
+
     .header.on h1 {
         height: 50px;
     }
@@ -1549,6 +1553,8 @@
 
     .sub01 .content {
         flex: 8;
+        transform: translateX(0);
+        transition: 0;
     }
 
     .sub01 .inner .content .p_img_box .p_pic {
@@ -1618,6 +1624,7 @@
         right: 8%;
         text-align: left;
         z-index: 1000;
+        opacity: 1;
     }
 
     .sub01 .title .logo {
@@ -1718,6 +1725,8 @@
 
     .sub02 .content {
         flex: 8;
+        transform: translateX(0);
+        transition: 0;
     }
 
     .sub02 .inner .content .p_img_box .p_pic {
@@ -1789,6 +1798,7 @@
         right: 8%;
         text-align: left;
         z-index: 1000;
+        opacity: 1;
     }
 
     .sub02 .title .logo {
@@ -1894,6 +1904,8 @@
 
     .sub03 .content {
         flex: 8;
+        transform: translateX(0);
+        transition: 0;
     }
 
     .sub03 .inner .content .p_img_box .p_pic {
@@ -1963,6 +1975,7 @@
         right: 17%;
         text-align: left;
         z-index: 1000;
+        opacity: 1;
     }
 
     .sub03 .title .logo {
@@ -2063,6 +2076,8 @@
 
     .sub04 .content {
         flex: 8;
+        transform: translateX(0);
+        transition: 0;
     }
 
     .sub04 .inner .content .p_img_box .p_pic {
@@ -2134,6 +2149,7 @@
         right: 8%;
         text-align: left;
         z-index: 1000;
+        opacity: 1;
     }
 
     .sub04 .title .logo {
@@ -2240,6 +2256,8 @@
 
     .sub05 .content {
         flex: 8;
+        transform: translateX(0);
+        transition: 0;
     }
 
     .sub05 .inner .content .p_img_box .p_pic {
@@ -2309,6 +2327,7 @@
         right: 17%;
         text-align: left;
         z-index: 1000;
+        opacity: 1;
     }
 
     .sub05 .title .logo {
@@ -2409,6 +2428,8 @@
 
     .sub06 .content {
         flex: 8;
+        transform: translateX(0);
+        transition: 0;
     }
 
     .sub06 .inner .content .p_img_box .p_pic {
@@ -2480,6 +2501,7 @@
         right: 8%;
         text-align: left;
         z-index: 1000;
+        opacity: 1;
     }
 
     .sub06 .title .logo {
