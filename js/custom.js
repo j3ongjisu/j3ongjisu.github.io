@@ -31,4 +31,34 @@ $(function () {
         }
     });
 
-})
+});
+
+//gsap
+// gsap.from('.main .m_con .pf_list .pf01', {
+//     x: -2000,
+//     y: 2,
+//     // rotation: 360,
+//     duration: 2
+// });
+
+
+const PF_LIST = gsap.utils.toArray('.pf_list figure');
+console.log(PF_LIST);
+
+
+PF_LIST.forEach((el, idx) => {
+    gsap.from(el, {
+        x: -2000,
+        delay: 0.3 * idx,
+        //y: 2,
+        rotation: 15,
+        duration: 1
+    });
+});
+
+gsap.from('.m_tit', {
+    x: 1500,
+    y: 2,
+    // rotation: 360,
+    duration: 3
+});
