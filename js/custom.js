@@ -17,6 +17,9 @@ $(function () {
             console.log(lnk, idx);
             // $('.gnb li').eq(idx - 1).addClass('on').siblings().removeClass('on');
             $('.main_content .section').eq(idx - 1).addClass('on').siblings().removeClass('on');
+            if (idx == 1) {
+                MainSlide()
+            }
         },
         onLeave: function (idx, nidx, dir) {
             $('.gnb li').eq(nidx - 1).addClass('on').siblings().removeClass('on');
@@ -42,17 +45,20 @@ $(function () {
 // });
 
 
-const PF_LIST = gsap.utils.toArray('.pf_list figure');
-console.log(PF_LIST);
+function MainSlide() {
+    const PF_LIST = gsap.utils.toArray('.pf_list figure');
+    console.log(PF_LIST);
 
 
-PF_LIST.forEach((el, idx) => {
-    gsap.from(el, {
-        x: -2000,
-        delay: 0.3 * idx,
-        //y: 2,
-        rotation: 15,
-        duration: 1
+    PF_LIST.forEach((el, idx) => {
+        gsap.from(el, {
+            x: -2000,
+            delay: 0.3 * idx,
+            //y: 2,
+            rotation: 15,
+            duration: 1
+        });
     });
-});
+}
+
 

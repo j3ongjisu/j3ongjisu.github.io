@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1002;
+    z-index: 1000;
 
     background: rgba(0, 0, 0, 0);
 }
@@ -126,7 +126,48 @@
     font-size: 14px;
     border-radius: 10px;
     text-align: center;
-    z-index: 1000;
+    z-index: 1001;
+}
+
+.main .m_con .pf_list figure .m_link a {
+    z-index: 1005;
+}
+
+/* 깜빡임 효과 */
+.main .m_con .pf_list figure .blinking {
+    -webkit-animation: blink 1.2s ease-in-out infinite alternate;
+    -moz-animation: blink 1.2s ease-in-out infinite alternate;
+    animation: blink 1.2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 
