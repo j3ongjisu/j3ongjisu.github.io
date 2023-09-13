@@ -698,7 +698,6 @@
 
 .sub03 .inner .content .m_img_box .m_pic img {
     border-radius: 15px;
-
 }
 
 .sub03 .title {
@@ -821,18 +820,23 @@
 
 .sub04 .inner .content .p_img_box .p_pic {
     position: absolute;
-    top: 0;
-    left: -9px;
+    top: 50px;
+    left: 3px;
     right: 0;
-    padding: 53px 70px;
+    width: 820px;
+    height: 440px;
+    padding: 0 70px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .sub04 .inner .content .p_img_box .p_pic img {
-    width: 700px;
-    height: 435px;
-    border-radius: 10px;
-    object-fit: cover;
+    transform: translate(0, 0);
+    transition: 5s;
+}
+
+.sub04 .inner .content .p_img_box .p_pic:hover img {
+    transform: translate(0, calc(-100% + 440px));
 }
 
 .sub04 .inner .content .p_img_box .p_case {
@@ -989,19 +993,25 @@
 
 .sub05 .inner .content .p_img_box .p_pic {
     position: absolute;
-    top: 0;
-    left: -9px;
+    top: 50px;
+    left: 3px;
     right: 0;
-    padding: 43px 70px;
+    width: 820px;
+    height: 440px;
+    padding: 0 70px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .sub05 .inner .content .p_img_box .p_pic img {
-    width: 700px;
-    height: 450px;
-    border-radius: 10px;
-    object-fit: cover;
+    transform: translate(0, 0);
+    transition: 5s;
 }
+
+.sub05 .inner .content .p_img_box .p_pic:hover img {
+    transform: translate(0, calc(-100% + 440px));
+}
+
 
 .sub05 .inner .content .p_img_box .p_case {
     position: relative;
@@ -1386,6 +1396,8 @@
     }
 
     .header {
+        display: contents;
+        width: 465px;
         position: fixed;
         top: 0;
         left: 0;
@@ -1417,8 +1429,8 @@
 
     .gnb {
         position: fixed;
-        top: 7%;
-        right: 30%;
+        top: 5%;
+        right: 50%;
         bottom: auto;
         /* transform: translate(0, -50%); */
         z-index: 1002;
@@ -2163,24 +2175,32 @@
 
     .sub04 .inner .content .p_img_box .p_pic {
         position: absolute;
+        padding: 0px 38px;
         top: -150px;
-        left: 65px;
+        left: 35px;
         right: 0;
-        padding: 0px 3px;
+        width: 395px;
+        height: 210px;
         z-index: 999;
+        overflow: hidden;
     }
 
+    .sub04 .inner .content .p_img_box .p_pic img {}
+
     .sub04 .inner .content .p_img_box .p_pic img {
-        width: 100%;
-        height: 210px;
-        border-radius: 10px;
-        object-fit: cover;
+        transform: translate(0, 0);
+        transition: 5s;
+    }
+
+
+    .sub04 .inner .content .p_img_box .p_pic:hover img {
+        transform: translate(0);
     }
 
     .sub04 .inner .content .p_img_box .p_case {
         position: relative;
         top: -175px;
-        left: 35px;
+        left: 40px;
     }
 
     .sub04 .inner .content .m_img_box {
@@ -2343,18 +2363,24 @@
 
     .sub05 .inner .content .p_img_box .p_pic {
         position: absolute;
+        padding: 0px 38px;
         top: -150px;
         left: -5px;
         right: 0;
-        padding: 0px 38px;
+        width: 395px;
+        height: 210px;
         z-index: 999;
+        overflow: hidden;
     }
 
     .sub05 .inner .content .p_img_box .p_pic img {
-        width: 100%;
-        height: 210px;
-        border-radius: 10px;
-        object-fit: cover;
+        transform: translate(0, 0);
+        transition: 5s;
+    }
+
+
+    .sub05 .inner .content .p_img_box .p_pic:hover img {
+        transform: translate(0);
     }
 
     .sub05 .inner .content .p_img_box .p_case {
@@ -2674,12 +2700,14 @@
 
     .sub07 {
         position: relative;
-        background: linear-gradient(-90deg, transparent 20%, rgba(130, 167, 197, 0.2) 35%);
+        /* background: linear-gradient(90deg, transparent 35%, rgba(130, 167, 197, 0.2) 35%); */
+        background: #fff;
     }
 
     .sub07 .training_box {
         position: relative;
-        transform: translate(10px, 125px);
+        padding: 45px 0;
+        transform: translate(10px, 0);
         right: -3%;
         width: 210px;
         height: 850px;
@@ -2690,8 +2718,8 @@
 
     .sub07 .training_box .tbox {
         display: flex;
-        width: 300px;
-        height: 130px;
+        width: 260px;
+        height: 120px;
         border-radius: 5px;
         gap: 15px;
     }
@@ -2740,8 +2768,8 @@
         display: none;
     }
 
-    /* 
-    * {
+
+    /* * {
         outline: 1px solid;
     } */
 }
