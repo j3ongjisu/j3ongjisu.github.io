@@ -1,14 +1,18 @@
+* {
+    outline: 1px solid;
+}
+
 .header {
     position: fixed;
     top: 0;
-    left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 1;
 
     background: rgba(0, 0, 0, 0);
 }
 
 .header h1 {
+    position: relative;
     padding: 30px;
     height: 50px;
     font-size: 18px;
@@ -16,7 +20,7 @@
     color: #82a7c5;
     text-align: end;
     transition: 0.5s;
-    z-index: 1001;
+    z-index: 1000;
 }
 
 .header h1 a {
@@ -112,7 +116,7 @@
 }
 
 .main .m_con .pf_list figure img {
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .main .m_con .pf_list figure .m_link {
@@ -126,7 +130,7 @@
     font-size: 14px;
     border-radius: 10px;
     text-align: center;
-    z-index: 1001;
+    z-index: 1005;
 }
 
 .main .m_con .pf_list figure .m_link a {
@@ -256,6 +260,7 @@
 /* 01.eider */
 .sub01 {
     background: linear-gradient(-115deg, transparent 65%, #82a7c533 35%);
+    /* background: linear-gradient(-90deg, transparent 32%, #82a7c533 35%); */
 }
 
 .sub01 .inner {
@@ -1315,10 +1320,10 @@
 
 /* 07.training */
 
-
 .sub07 {
     position: relative;
-    background: linear-gradient(90deg, transparent 37%, rgba(130, 167, 197, 0.2) 35%);
+    background: linear-gradient(180deg, transparent 90%, rgba(130, 167, 197, 0.2) 35%);
+    /* background: linear-gradient(90deg, transparent 37%, rgba(130, 167, 197, 0.2) 35%); */
 }
 
 .sub07 .training_box {
@@ -1376,18 +1381,8 @@
 }
 
 
-
-
-/* .footer {
-    background: #333;
-}
-
-.footer .inner {
-    height: 500px;
-} */
-
-
 @media (max-width: 768px) {
+
 
     br {
         display: inline-block;
@@ -2694,9 +2689,6 @@
     }
 
     /* 07.training */
-    /* * {
-        outline: 1px solid;
-    } */
 
     .sub07 {
         position: relative;
