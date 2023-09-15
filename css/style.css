@@ -913,7 +913,7 @@
 .sub04 .inner .content .m_img_box .m_top_case {
     position: absolute;
     left: -71%;
-    transform: translate(0px, -361px);
+    transform: translate(0px, -362px);
     z-index: 1000;
 }
 
@@ -1418,7 +1418,7 @@
 
 .sub07 {
     position: relative;
-    background: linear-gradient(180deg, rgba(130, 167, 197, 0.2) 21%, rgba(255, 255, 255, 1) 21%);
+    background: linear-gradient(177deg, rgba(130, 167, 197, 0.2) 26%, rgba(255, 255, 255, 1) 26%);
 }
 
 .sub07 .training_box {
@@ -1436,12 +1436,13 @@
     border-radius: 5px;
 }
 
-.sub07 .training_box .tbox {}
 
 .sub07 .training_box .tbox a img {
     margin: 0 0 16px 0;
     border-radius: 10px;
     transition: 0.4s;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.1);
+
 }
 
 .sub07 .training_box .tbox a:hover img {
@@ -2230,7 +2231,7 @@
         border-radius: 15px;
     }
 
-    /* 04.NEFS */
+    /* 04.DOMINO */
 
     .sub04 {
         background: linear-gradient(-170deg, transparent 60%, rgba(130, 167, 197, 0.2) 35%);
