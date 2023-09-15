@@ -1,5 +1,9 @@
 $(function () {
 
+
+    const NUM = ['INTRO', '01', '02', '03', '04', '05', '06', 'TRAINING'];
+
+
     $('.main_content').fullpage({
         anchors: ['main', 'sub01', 'sub02', 'sub03', 'sub04', 'sub05', 'sub06', 'sub07'],
         navigation: false,
@@ -20,6 +24,11 @@ $(function () {
             if (idx == 1) {
                 MainSlide()
             }
+
+            $('.number').text(NUM[idx - 1]);
+            $('.bg').css({
+                transform: `rotate(${360 + 40 * idx}deg)`
+            })
         },
         onLeave: function (idx, nidx, dir) {
             $('.gnb li').eq(nidx - 1).addClass('on').siblings().removeClass('on');
@@ -55,7 +64,7 @@ function MainSlide() {
             x: -2000,
             delay: 0.3 * idx,
             //y: 2,
-            rotation: 15,
+            //rotation: 15,
             duration: 1
         });
     });

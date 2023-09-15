@@ -9,20 +9,9 @@
     font-size: 330px;
     font-weight: 900;
     z-index: -1;
+
     font-style: italic;
     color: #82a7c594;
-}
-
-.bg {
-    position: fixed;
-    width: 500px;
-    height: 500px;
-    background: #82a7c550;
-    bottom: 0;
-    left: 30px;
-    transition: 0.2s 0.3s;
-    border-radius: 20px;
-    z-index: -2;
 }
 
 .header {
@@ -58,6 +47,7 @@
     position: fixed;
     bottom: 5%;
     right: 55px;
+    /* transform: translate(0, -50%); */
     z-index: 1002;
 }
 
@@ -82,6 +72,7 @@
     color: #82a7c5;
     font-size: 14px;
     margin: 9px 0 0 13px;
+    /* transform: translate(100%, 0); */
 }
 
 .gnb li.on a .first {
@@ -119,7 +110,9 @@
     border: 1px solid #82a7c5;
 }
 
-
+.main {
+    background: linear-gradient(-90deg, transparent 37%, rgba(130, 167, 197, 0.2) 35%);
+}
 
 .main .m_con {
     position: relative;
@@ -277,6 +270,9 @@
 }
 
 /* 01.eider */
+.sub01 {
+    background: linear-gradient(-107deg, transparent 66%, #82a7c533 35%);
+}
 
 
 .sub01 .inner {
@@ -290,7 +286,7 @@
 
 .sub01 .content {
     border-radius: 80px;
-    transform: translateX(-100%);
+    transform: translateX(-50%);
     transition: 0.5s;
 }
 
@@ -334,37 +330,29 @@
 
 .sub01 .inner .content .m_img_box .m_top_case {
     position: absolute;
-    transform: translate(-15px, -362px);
-    left: -134%;
+    left: -97%;
+    transform: translate(-46px, -316px) rotate(-8deg);
     z-index: 1000;
-}
-
-.sub01 .inner .content .m_img_box .m_top_case img {
-    width: 100px;
 }
 
 .sub01 .inner .content .m_img_box .m_case {
     position: absolute;
     bottom: 22%;
-    left: -150%;
-    transform: translate(-31px, 25px);
-}
-
-.sub01 .inner .content .m_img_box .m_case img {
-    width: 220px;
+    left: -123%;
+    transform: rotate(-8deg);
 }
 
 .sub01 .inner .content .m_img_box .m_pic {
     position: absolute;
-    width: 157px;
-    left: -141%;
     bottom: 22%;
-    transform: translate(-24px, -16px);
+    left: -113%;
+    transform: translate(-7px, -21px) rotate(-8deg);
+    width: 134px;
     object-fit: cover;
 }
 
 .sub01 .inner .content .m_img_box .m_pic img {
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 
@@ -412,7 +400,7 @@
 .sub01 .title .txt .button a {
     padding: 10px 25px 10px 25px;
     width: 50px;
-    background: #ccc;
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: #fff;
     transition: 0.5s;
@@ -472,7 +460,7 @@
 /* 02.CU */
 
 .sub02 {
-    background: linear-gradient(107deg, transparent 76%, #82a7c533 35%);
+    background: linear-gradient(107deg, transparent 66%, #82a7c533 35%);
 }
 
 .sub02 .inner {
@@ -489,7 +477,7 @@
     top: 20%;
     right: 9%;
     transform: translateX(100%);
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .sub02.on .content {
@@ -533,38 +521,30 @@
 
 .sub02 .inner .content .m_img_box .m_top_case {
     position: absolute;
-    left: -71%;
-    transform: translate(0px, -361px);
+    left: -78%;
+    transform: translate(-50px, -320px) rotate(8deg);
     z-index: 1000;
-}
-
-.sub02 .inner .content .m_img_box .m_top_case img {
-    width: 100px;
 }
 
 .sub02 .inner .content .m_img_box .m_case {
     position: absolute;
     bottom: 22%;
-    left: -95%;
-    transform: translate(0px, 25px);
-}
-
-
-.sub02 .inner .content .m_img_box .m_case img {
-    width: 220px;
+    left: -123%;
+    transform: rotate(8deg);
 }
 
 .sub02 .inner .content .m_img_box .m_pic {
     position: absolute;
     bottom: 22%;
-    left: -74%;
-    width: 157px;
-    transform: translate(-23px, -14px);
+    left: -113%;
+    transform: translate(-7px, -27px) rotate(8deg);
+    width: 131px;
     object-fit: cover;
 }
 
 .sub02 .inner .content .m_img_box .m_pic img {
-    border-radius: 20px;
+    border-radius: 15px;
+
 }
 
 .sub02 .title {
@@ -606,7 +586,7 @@
 .sub02 .title .txt .button a {
     padding: 10px 25px 10px 25px;
     width: 50px;
-    background: #ccc;
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: #fff;
     transition: 0.5s;
@@ -659,6 +639,9 @@
 }
 
 /* 03.eider */
+.sub03 {
+    background: linear-gradient(-107deg, transparent 66%, #82a7c533 35%);
+}
 
 .sub03 .inner {
     display: flex;
@@ -670,9 +653,8 @@
 }
 
 .sub03 .content {
-    border-radius: 80px;
-    transform: translateX(-100%);
-    transition: 0.5s;
+    transform: translateX(-50%);
+    transition: 1.5s;
 }
 
 .sub03.on .content {
@@ -683,11 +665,12 @@
 
 .sub03 .inner .content .p_img_box .p_pic {
     position: absolute;
-    top: 58px;
-    left: 72px;
+    top: 50px;
+    left: 3px;
     right: 0;
-    width: 681px;
+    width: 820px;
     height: 425px;
+    padding: 0 70px;
     z-index: 999;
     overflow: hidden;
 }
@@ -715,38 +698,29 @@
 
 .sub03 .inner .content .m_img_box .m_top_case {
     position: absolute;
-    transform: translate(-15px, -362px);
-    left: -134%;
+    left: -97%;
+    transform: translate(-46px, -316px) rotate(-8deg);
     z-index: 1000;
-}
-
-.sub03 .inner .content .m_img_box .m_top_case img {
-    width: 100px;
 }
 
 .sub03 .inner .content .m_img_box .m_case {
     position: absolute;
     bottom: 22%;
-    left: -150%;
-    transform: translate(-31px, 25px);
-}
-
-.sub03 .inner .content .m_img_box .m_case img {
-    width: 220px;
+    left: -123%;
+    transform: rotate(-8deg);
 }
 
 .sub03 .inner .content .m_img_box .m_pic {
     position: absolute;
-    width: 153px;
-    left: -141%;
     bottom: 22%;
-    transform: translate(-24px, -16px);
+    left: -112%;
+    transform: translate(-7px, -21px) rotate(-8deg);
+    width: 131px;
     object-fit: cover;
 }
 
 .sub03 .inner .content .m_img_box .m_pic img {
     border-radius: 15px;
-
 }
 
 .sub03 .title {
@@ -791,7 +765,7 @@
 .sub03 .title .txt .button a {
     padding: 10px 25px 10px 25px;
     width: 50px;
-    background: #ccc;
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: #fff;
     transition: 0.5s;
@@ -851,7 +825,7 @@
 /* 04.NEFS */
 
 .sub04 {
-    background: linear-gradient(107deg, transparent 76%, #82a7c533 35%);
+    background: linear-gradient(107deg, transparent 66%, #82a7c533 35%);
 }
 
 .sub04 .inner {
@@ -868,7 +842,7 @@
     top: 20%;
     right: 9%;
     transform: translateX(100%);
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 .sub04.on .content {
@@ -901,7 +875,6 @@
     position: relative;
 }
 
-
 .sub04 .inner .content .m_img_box {
     position: absolute;
     bottom: 20px;
@@ -912,38 +885,30 @@
 
 .sub04 .inner .content .m_img_box .m_top_case {
     position: absolute;
-    left: -71%;
-    transform: translate(0px, -361px);
+    left: -78%;
+    transform: translate(-50px, -320px) rotate(8deg);
     z-index: 1000;
-}
-
-.sub04 .inner .content .m_img_box .m_top_case img {
-    width: 100px;
 }
 
 .sub04 .inner .content .m_img_box .m_case {
     position: absolute;
     bottom: 22%;
-    left: -95%;
-    transform: translate(0px, 25px);
-}
-
-
-.sub04 .inner .content .m_img_box .m_case img {
-    width: 220px;
+    left: -123%;
+    transform: rotate(8deg);
 }
 
 .sub04 .inner .content .m_img_box .m_pic {
     position: absolute;
     bottom: 22%;
-    left: -74%;
-    width: 157px;
-    transform: translate(-23px, -13px);
+    left: -112%;
+    transform: translate(-8px, -28px) rotate(8deg);
+    width: 131px;
     object-fit: cover;
 }
 
 .sub04 .inner .content .m_img_box .m_pic img {
-    border-radius: 20px;
+    border-radius: 15px;
+
 }
 
 .sub04 .title {
@@ -986,7 +951,7 @@
 .sub04 .title .txt .button a {
     padding: 10px 25px 10px 25px;
     width: 50px;
-    background: #ccc;
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: #fff;
     transition: 0.5s;
@@ -1039,6 +1004,10 @@
 }
 
 /* 05.CU */
+.sub05 {
+    background: linear-gradient(-107deg, transparent 66%, #82a7c533 35%);
+}
+
 .sub05 .inner {
     display: flex;
     gap: 30px;
@@ -1049,9 +1018,8 @@
 }
 
 .sub05 .content {
-    border-radius: 80px;
-    transform: translateX(-100%);
-    transition: 0.5s;
+    transform: translateX(-50%);
+    transition: 1.5s;
 }
 
 .sub05.on .content {
@@ -1080,6 +1048,7 @@
     transform: translate(0, calc(-100% + 425px));
 }
 
+
 .sub05 .inner .content .p_img_box .p_case {
     position: relative;
 }
@@ -1094,37 +1063,30 @@
 
 .sub05 .inner .content .m_img_box .m_top_case {
     position: absolute;
-    transform: translate(-15px, -362px);
-    left: -134%;
+    left: -97%;
+    transform: translate(-46px, -316px) rotate(-8deg);
     z-index: 1000;
-}
-
-.sub05 .inner .content .m_img_box .m_top_case img {
-    width: 100px;
 }
 
 .sub05 .inner .content .m_img_box .m_case {
     position: absolute;
     bottom: 22%;
-    left: -150%;
-    transform: translate(-31px, 25px);
-}
-
-.sub05 .inner .content .m_img_box .m_case img {
-    width: 220px;
+    left: -123%;
+    transform: rotate(-8deg);
 }
 
 .sub05 .inner .content .m_img_box .m_pic {
     position: absolute;
-    width: 158px;
-    left: -141%;
     bottom: 22%;
-    transform: translate(-26px, -16px);
+    left: -113%;
+    transform: translate(-7px, -21px) rotate(-8deg);
+    width: 134px;
     object-fit: cover;
 }
 
 .sub05 .inner .content .m_img_box .m_pic img {
-    border-radius: 20px;
+    border-radius: 15px;
+
 }
 
 .sub05 .title {
@@ -1169,7 +1131,7 @@
 .sub05 .title .txt .button a {
     padding: 10px 25px 10px 25px;
     width: 50px;
-    background: #ccc;
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: #fff;
     transition: 0.5s;
@@ -1230,7 +1192,7 @@
 /* 06.유기견 보호 센터 */
 
 .sub06 {
-    background: linear-gradient(107deg, transparent 76%, #82a7c533 35%);
+    background: linear-gradient(107deg, transparent 66%, #82a7c533 35%);
 }
 
 .sub06 .inner {
@@ -1289,38 +1251,30 @@
 
 .sub06 .inner .content .m_img_box .m_top_case {
     position: absolute;
-    left: -71%;
-    transform: translate(0px, -362px);
+    left: -78%;
+    transform: translate(-50px, -320px) rotate(8deg);
     z-index: 1000;
-}
-
-.sub06 .inner .content .m_img_box .m_top_case img {
-    width: 100px;
 }
 
 .sub06 .inner .content .m_img_box .m_case {
     position: absolute;
     bottom: 22%;
-    left: -95%;
-    transform: translate(0px, 25px);
-}
-
-
-.sub06 .inner .content .m_img_box .m_case img {
-    width: 220px;
+    left: -123%;
+    transform: rotate(8deg);
 }
 
 .sub06 .inner .content .m_img_box .m_pic {
     position: absolute;
     bottom: 22%;
-    left: -74%;
-    width: 155px;
-    transform: translate(-22px, -13px);
+    left: -113%;
+    transform: translate(-7px, -27px) rotate(8deg);
+    width: 131px;
     object-fit: cover;
 }
 
 .sub06 .inner .content .m_img_box .m_pic img {
-    border-radius: 20px;
+    border-radius: 15px;
+
 }
 
 .sub06 .title {
@@ -1362,7 +1316,7 @@
 .sub06 .title .txt .button a {
     padding: 10px 25px 10px 25px;
     width: 50px;
-    background: #ccc;
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     color: #fff;
     transition: 0.5s;
@@ -1418,7 +1372,7 @@
 
 .sub07 {
     position: relative;
-    background: linear-gradient(180deg, rgba(130, 167, 197, 0.2) 21%, rgba(255, 255, 255, 1) 21%);
+    background: linear-gradient(180deg, rgba(130, 167, 197, 0.2) 17%, rgba(255, 255, 255, 1) 17%);
 }
 
 .sub07 .training_box {
@@ -1472,10 +1426,6 @@
     } */
 
     .number {
-        display: none;
-    }
-
-    .bg {
         display: none;
     }
 
@@ -1698,7 +1648,10 @@
 
     /* 01.eider */
     .sub01 {
-        background: linear-gradient(10deg, rgba(255, 255, 255, 1) 67%, rgba(130, 167, 197, 0.2) 67%);
+        /* background: linear-gradient(155deg, transparent 40%, #82a7c533 35%); */
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 67%, rgba(130, 167, 197, 0.2) 67%);
+
     }
 
     .sub01 .inner {
@@ -1755,8 +1708,8 @@
     .sub01 .inner .content .m_img_box .m_top_case {
         position: absolute;
         width: 60px;
-        left: -30%;
-        transform: translate(-46px, -214px) rotate(0);
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
@@ -1773,13 +1726,14 @@
         position: absolute;
         bottom: 25%;
         left: -68%;
-        transform: translate(-2px, -22px) rotate(0);
-        width: 85px;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
     .sub01 .inner .content .m_img_box .m_pic img {
         border-radius: 15px;
+
     }
 
     .sub01 .title {
@@ -1821,7 +1775,7 @@
     .sub01 .title .txt .button a {
         padding: 8px 20px 8px 20px;
         width: 50px;
-        background: #ccc;
+        background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         color: #fff;
         transition: 0.5s;
@@ -1876,7 +1830,7 @@
     /* 02.인제대 백병원 */
 
     .sub02 {
-        background: linear-gradient(-165deg, transparent 60%, rgba(130, 167, 197, 0.2) 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub02 .inner {
@@ -1935,8 +1889,8 @@
     .sub02 .inner .content .m_img_box .m_top_case {
         position: absolute;
         width: 60px;
-        left: -30%;
-        transform: translate(-46px, -214px) rotate(0);
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
@@ -1953,8 +1907,8 @@
         position: absolute;
         bottom: 25%;
         left: -68%;
-        transform: translate(-2px, -22px) rotate(0);
-        width: 85px;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2002,7 +1956,7 @@
     .sub02 .title .txt .button a {
         padding: 8px 20px 8px 20px;
         width: 50px;
-        background: #ccc;
+        background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         color: #fff;
         transition: 0.5s;
@@ -2056,7 +2010,7 @@
 
     /* 03.eider */
     .sub03 {
-        background: linear-gradient(10deg, rgba(255, 255, 255, 1) 67%, rgba(130, 167, 197, 0.2) 67%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub03 .inner {
@@ -2111,8 +2065,8 @@
     .sub03 .inner .content .m_img_box .m_top_case {
         position: absolute;
         width: 60px;
-        left: -30%;
-        transform: translate(-46px, -214px) rotate(0);
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
@@ -2129,8 +2083,8 @@
         position: absolute;
         bottom: 25%;
         left: -68%;
-        transform: translate(-2px, -22px) rotate(0);
-        width: 85px;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2178,7 +2132,7 @@
     .sub03 .title .txt .button a {
         padding: 8px 20px 8px 20px;
         width: 50px;
-        background: #ccc;
+        background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         color: #fff;
         transition: 0.5s;
@@ -2233,7 +2187,7 @@
     /* 04.NEFS */
 
     .sub04 {
-        background: linear-gradient(-170deg, transparent 60%, rgba(130, 167, 197, 0.2) 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub04 .inner {
@@ -2292,8 +2246,8 @@
     .sub04 .inner .content .m_img_box .m_top_case {
         position: absolute;
         width: 60px;
-        left: -30%;
-        transform: translate(-46px, -214px) rotate(0);
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
@@ -2310,8 +2264,8 @@
         position: absolute;
         bottom: 25%;
         left: -68%;
-        transform: translate(-2px, -22px) rotate(0);
-        width: 85px;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2359,7 +2313,7 @@
     .sub04 .title .txt .button a {
         padding: 8px 20px 8px 20px;
         width: 50px;
-        background: #ccc;
+        background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         color: #fff;
         transition: 0.5s;
@@ -2413,7 +2367,7 @@
 
     /* 05.CU */
     .sub05 {
-        background: linear-gradient(10deg, rgba(255, 255, 255, 1) 67%, rgba(130, 167, 197, 0.2) 67%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub05 .inner {
@@ -2468,8 +2422,8 @@
     .sub05 .inner .content .m_img_box .m_top_case {
         position: absolute;
         width: 60px;
-        left: -30%;
-        transform: translate(-46px, -214px) rotate(0);
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
@@ -2486,8 +2440,8 @@
         position: absolute;
         bottom: 25%;
         left: -68%;
-        transform: translate(-2px, -22px) rotate(0);
-        width: 85px;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2534,7 +2488,7 @@
     .sub05 .title .txt .button a {
         padding: 8px 20px 8px 20px;
         width: 50px;
-        background: #ccc;
+        background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         color: #fff;
         transition: 0.5s;
@@ -2590,7 +2544,7 @@
     /* 06.유기견 보호 센터 */
 
     .sub06 {
-        background: linear-gradient(-170deg, transparent 60%, rgba(130, 167, 197, 0.2) 35%);
+        background: linear-gradient(-155deg, transparent 50%, rgba(130, 167, 197, 0.2) 35%);
     }
 
     .sub06 .inner {
@@ -2617,7 +2571,7 @@
     }
 
     .sub06 .inner .content .p_img_box .p_pic img {
-        width: 47.5%;
+        width: 100%;
         height: 210px;
         border-radius: 10px;
         object-fit: cover;
@@ -2641,8 +2595,8 @@
     .sub06 .inner .content .m_img_box .m_top_case {
         position: absolute;
         width: 60px;
-        left: -30%;
-        transform: translate(-46px, -214px) rotate(0);
+        left: -36%;
+        transform: translate(-46px, -195px) rotate(0);
         z-index: 1000;
     }
 
@@ -2659,8 +2613,8 @@
         position: absolute;
         bottom: 25%;
         left: -68%;
-        transform: translate(-2px, -22px) rotate(0);
-        width: 85px;
+        transform: translate(-7px, -15px) rotate(0);
+        width: 79px;
         object-fit: cover;
     }
 
@@ -2708,7 +2662,7 @@
     .sub06 .title .txt .button a {
         padding: 8px 20px 8px 20px;
         width: 50px;
-        background: #ccc;
+        background: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
         color: #fff;
         transition: 0.5s;
