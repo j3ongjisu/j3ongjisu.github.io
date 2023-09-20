@@ -452,13 +452,13 @@
     margin: 0 0 0 auto;
     padding: 10px;
     background: #ff5e37;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub01 .title .txt .color .c_list li:nth-child(2) {
     padding: 10px;
     background: #333;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub01 .number {
@@ -641,13 +641,13 @@
 .sub02 .title .txt .color .c_list li:nth-child(1) {
     padding: 10px;
     background: #6F2B8C;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub02 .title .txt .color .c_list li:nth-child(2) {
     padding: 10px;
     background: #9dc92a;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub02 .number {
@@ -751,7 +751,7 @@
 
 .sub03 .title {
     position: absolute;
-    top: 26%;
+    top: 23%;
     right: 12%;
     text-align: right;
     z-index: 1000;
@@ -818,6 +818,7 @@
     color: #555;
 }
 
+
 .sub03 .title .txt .color {
     text-align: right;
 }
@@ -831,13 +832,13 @@
     margin: 0 0 0 auto;
     padding: 10px;
     background: #04BFAD;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub03 .title .txt .color .c_list li:nth-child(2) {
     padding: 10px;
     background: #2264bb;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub03 .number {
@@ -1021,13 +1022,13 @@
 .sub04 .title .txt .color .c_list li:nth-child(1) {
     padding: 10px;
     background: #048ABF;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub04 .title .txt .color .c_list li:nth-child(2) {
     padding: 10px;
     background: #D9184B;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub04 .number {
@@ -1129,7 +1130,7 @@
 
 .sub05 .title {
     position: absolute;
-    top: 26%;
+    top: 24%;
     right: 12%;
     text-align: right;
     z-index: 1000;
@@ -1209,14 +1210,14 @@
     margin: 0 0 0 auto;
     padding: 10px;
     background: #000;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub05 .title .txt .color .c_list li:nth-child(2) {
     padding: 10px;
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub05 .number {
@@ -1247,7 +1248,7 @@
     top: 20%;
     right: 9%;
     transform: translateX(100%);
-    transition: 1.5s;
+    transition: 0.5s;
 }
 
 .sub06.on .content {
@@ -1325,7 +1326,7 @@
 
 .sub06 .title {
     position: absolute;
-    top: 24%;
+    top: 22%;
     left: 14%;
     z-index: 1000;
     opacity: 0;
@@ -1397,13 +1398,13 @@
 .sub06 .title .txt .color .c_list li:nth-child(1) {
     padding: 10px;
     background: #99cf23;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub06 .title .txt .color .c_list li:nth-child(2) {
     padding: 10px;
     background: #7AA61B;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .sub06 .number {
@@ -1865,13 +1866,13 @@
         margin: 0 0 0 0;
         padding: 10px;
         background: #ff5e37;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     .sub01 .title .txt .color .c_list li:nth-child(2) {
         padding: 10px;
         background: #333;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     /* 02.인제대 백병원 */
@@ -2046,13 +2047,13 @@
         margin: 0 0 0 0;
         padding: 10px;
         background: #6F2B8C;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     .sub02 .title .txt .color .c_list li:nth-child(2) {
         padding: 10px;
         background: #7AA61B;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     /* 03.eider */
@@ -2222,13 +2223,13 @@
         margin: 0 0 0 0;
         padding: 10px;
         background: #04BFAD;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     .sub03 .title .txt .color .c_list li:nth-child(2) {
         padding: 10px;
         background: #2264bb;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     /* 04.DOMINO */
@@ -2403,13 +2404,13 @@
         padding: 10px;
         background: #048ABF;
         border: 1px solid #ddd;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     .sub04 .title .txt .color .c_list li:nth-child(2) {
         padding: 10px;
         background: #D9184B;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     /* 05.CU */
@@ -2578,14 +2579,14 @@
         margin: 0 0 0 0;
         padding: 10px;
         background: #000;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     .sub05 .title .txt .color .c_list li:nth-child(2) {
         padding: 10px;
         background: #fff;
         border: 1px solid #ddd;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     /* 06.유기견 보호 센터 */
@@ -2753,13 +2754,13 @@
         margin: 0 0 0 0;
         padding: 10px;
         background: #7AA61B;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     .sub06 .title .txt .color .c_list li:nth-child(2) {
         padding: 10px;
         background: #99cf23;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     /* 07.training */
