@@ -1469,9 +1469,6 @@
 
 
 @media (max-width: 768px) {
-    /* * {
-        outline: 1px solid;
-    } */
 
     .number {
         display: none;
@@ -2767,28 +2764,27 @@
 
     .sub07 {
         position: relative;
-        /* background: linear-gradient(90deg, transparent 35%, rgba(130, 167, 197, 0.2) 35%); */
         background: #fff;
     }
 
     .sub07 .training_box {
         position: relative;
-        padding: 45px 0;
+        padding: 40px 0 0 0;
         transform: translate(10px, 0);
         right: -3%;
         width: 210px;
         height: 850px;
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 40px;
     }
 
     .sub07 .training_box .tbox {
         display: flex;
-        width: 260px;
+        width: 300px;
         height: 120px;
         border-radius: 5px;
-        gap: 15px;
+        gap: 30px;
     }
 
     .sub07 .training_box .tbox a img {
