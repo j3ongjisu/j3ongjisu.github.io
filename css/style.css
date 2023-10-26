@@ -1716,17 +1716,15 @@
 
     .sub01 .inner .content .p_img_box .p_pic {
         position: absolute;
-        padding: 0px 38px;
+        padding: 0px 30px;
         top: -150px;
-        left: -5px;
+        left: 5px;
         right: 0;
         width: 395px;
         height: 210px;
         z-index: 999;
         overflow: hidden;
     }
-
-    .sub01 .inner .content .p_img_box .p_pic img {}
 
     .sub01 .inner .content .p_img_box .p_pic img {
         transform: translate(0, 0);
@@ -1894,17 +1892,15 @@
 
     .sub02 .inner .content .p_img_box .p_pic {
         position: absolute;
-        padding: 0px 38px;
+        padding: 0px 30px;
         top: -150px;
-        left: 35px;
+        left: 45px;
         right: 0;
         width: 395px;
-        height: 210px;
+        height: 215px;
         z-index: 999;
         overflow: hidden;
     }
-
-    .sub02 .inner .content .p_img_box .p_pic img {}
 
     .sub02 .inner .content .p_img_box .p_pic img {
         transform: translate(0, 0);
@@ -2074,9 +2070,9 @@
 
     .sub03 .inner .content .p_img_box .p_pic {
         position: absolute;
-        padding: 0px 38px;
+        padding: 0px 30px;
         top: -150px;
-        left: -5px;
+        left: 5px;
         right: 0;
         width: 395px;
         height: 210px;
@@ -2251,17 +2247,15 @@
 
     .sub04 .inner .content .p_img_box .p_pic {
         position: absolute;
-        padding: 0px 38px;
+        padding: 0px 30px;
         top: -150px;
-        left: 35px;
+        left: 45px;
         right: 0;
         width: 395px;
-        height: 210px;
+        height: 215px;
         z-index: 999;
         overflow: hidden;
     }
-
-    .sub04 .inner .content .p_img_box .p_pic img {}
 
     .sub04 .inner .content .p_img_box .p_pic img {
         transform: translate(0, 0);
@@ -2431,9 +2425,9 @@
 
     .sub05 .inner .content .p_img_box .p_pic {
         position: absolute;
-        padding: 0px 38px;
+        padding: 0px 30px;
         top: -150px;
-        left: -5px;
+        left: 5px;
         right: 0;
         width: 395px;
         height: 210px;
@@ -2445,7 +2439,6 @@
         transform: translate(0, 0);
         transition: 5s;
     }
-
 
     .sub05 .inner .content .p_img_box .p_pic:hover img {
         transform: translate(0);
@@ -2616,8 +2609,8 @@
     }
 
     .sub06 .inner .content .p_img_box .p_pic img {
-        width: 47.5%;
-        height: 210px;
+        width: 50%;
+        height: 215px;
         border-radius: 10px;
         object-fit: cover;
     }
@@ -2657,15 +2650,14 @@
     .sub06 .inner .content .m_img_box .m_pic {
         position: absolute;
         bottom: 25%;
-        left: -68%;
+        left: -67%;
         transform: translate(-2px, -22px) rotate(0);
-        width: 85px;
+        width: 83px;
         object-fit: cover;
     }
 
     .sub06 .inner .content .m_img_box .m_pic img {
         border-radius: 15px;
-
     }
 
     .sub06 .title {
