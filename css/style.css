@@ -398,6 +398,10 @@
     margin: 0 0 24px 0;
 }
 
+.sub01 .title .txt .info p strong{
+    font-weight: 600;
+}
+
 .sub01 .title .txt .color {
     margin: 0 0 72px 0;
 }
@@ -594,6 +598,10 @@
     margin: 0 0 24px 0;
 }
 
+.sub02 .title .txt .info p strong{
+    font-weight: 600;
+}
+
 .sub02 .title .txt .color {
     margin: 0 0 72px 0;
 }
@@ -775,6 +783,10 @@
 .sub03 .title .txt .font,
 .sub03 .title .txt .info {
     margin: 0 0 24px 0;
+}
+
+.sub03 .title .txt .info p strong{
+    font-weight: 600;
 }
 
 .sub03 .title .txt .color {
@@ -975,6 +987,10 @@
     margin: 0 0 24px 0;
 }
 
+.sub04 .title .txt .info p strong{
+    font-weight: 600;
+}
+
 .sub04 .title .txt .color {
     margin: 0 0 72px 0;
 }
@@ -1155,6 +1171,10 @@
 .sub05 .title .txt .font,
 .sub05 .title .txt .info {
     margin: 0 0 24px 0;
+}
+
+.sub05 .title .txt .info p strong{
+    font-weight: 600;
 }
 
 .sub05 .title .txt .color {
@@ -1349,6 +1369,13 @@
 .sub06 .title .txt .font,
 .sub06 .title .txt .info {
     margin: 0 0 24px 0;
+}
+
+.sub06 .title .txt .info p strong{
+    font-weight: 600;
+}
+.sub06 .title .txt .info p span{
+    font-weight: 600;
 }
 
 .sub06 .title .txt .color {
